@@ -1,13 +1,13 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
-import Pai from './components/direta/Pai';
+import Pai from './components/indireta/Pai';
 
 export default () => (
   <SafeAreaView style={style.App}>
-
     <Pai />
 
     {/*
+    <Pai />
     <Contador inicial={100} passo={13} />
     <Contador />
     
