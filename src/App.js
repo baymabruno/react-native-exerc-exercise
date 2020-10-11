@@ -1,11 +1,12 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
-import Diferenciar from './components/Diferenciar';
+import ParImpar from './components/ParImpar';
 
 export default () => (
   <SafeAreaView style={style.App}>
-    <Diferenciar />
+    <ParImpar num={3} />
     {/*
+    <Diferenciar />
     <ContadorV2 />
     <Pai />
     <Pai />
