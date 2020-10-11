@@ -1,12 +1,16 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
-import Contador from './components/Contador';
+import Pai from './components/direta/Pai';
 
 export default () => (
   <SafeAreaView style={style.App}>
+
+    <Pai />
+
+    {/*
     <Contador inicial={100} passo={13} />
     <Contador />
-    {/*
+    
     <Botao />
     <Titulo
       principal="Cadastro Produto"
