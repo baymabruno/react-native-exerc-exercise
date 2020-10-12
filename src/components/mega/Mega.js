@@ -4,6 +4,10 @@ import estilo from '../estilo';
 
 export default class Mega extends Component {
   render() {
-    return <Text style={estilo.txtG}>Gerador de Mega-Sena</Text>;
+    return (
+      <Text style={estilo.txtG}>
+        Gerador de Mega-Sena {this.props.qtdNumeros}
+      </Text>
+    );
   }
 }
